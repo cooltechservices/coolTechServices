@@ -1,3 +1,36 @@
-* {
-    box-sizing: border-box;
+*{
+  box-sizing: border-box;
+}
+.nav-container{
+  position: relative;
+}
+.menu-toggle{
+  display: none;
+}
+.menu-items-holder{
+  display: flex;
+  text-align: center;
+}
+.menu-item > a{
+  padding:10px;
+}
+@media (max-width: 576px) {
+  .menu-toggle{
+    display: inline-block;
   }
+  .menu-items-holder{
+    position: absolute;
+    width: 100%;
+    background: red;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+}
+@media (min-width: 576px) { }
+@media (min-width: 768px) { }
+@media (min-width: 992px) { }
+@media (min-width: 1200px) { }
+@media (min-width: 1400px) { }
