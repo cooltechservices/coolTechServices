@@ -1,0 +1,9 @@
+:root {
+    --app-primary: #1c235e;
+    --app-secondary: #ed7900;
+    --app-white: #ffffff;
+    --service-btn: linear-gradient(90deg, rgb(16, 172, 213) 0%, 19.9005%, rgb(73, 123, 229) 39.801%, 77.0293%, rgb(155, 50, 254) 100%);
+    --sales-btn: linear-gradient(90deg, rgb(212, 52, 47) 0%, 22.0398%, rgb(230, 93, 28) 44.0796%, 72.0398%, rgb(248, 133, 9) 100%);
+    --app-transparent: transparent;
+    --app-desc: #666666;
+}

@@ -1,5 +1,7 @@
+@import url(color.css);
 * {
   box-sizing: border-box;
+  color: var(--app-primary)
 }
 .header {
   position: fixed;
@@ -9,9 +11,6 @@
 }
 .nav-container {
   position: relative;
-}
-.menu-toggle {
-  display: none;
 }
 .menu-items-holder {
   display: flex;
@@ -42,7 +41,7 @@
   .menu-items-holder {
     position: absolute;
     width: 100%;
-    background: #ffffff;
+    background: var(--app-white);
     top: 100%;
     left: 0;
     flex-direction: column;
@@ -52,8 +51,17 @@
   .menu-items-holder.active {
     display: block;
   }
+  .card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
 }
 @media (min-width: 576px) {
+  .menu-toggle {
+    display: none;
+  }
 }
 @media (min-width: 768px) {
 }

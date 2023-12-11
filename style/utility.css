@@ -1,7 +1,4 @@
-.logo {
-  width: 50px;
-  height: 50px;
-}
+@import url(color.css);
 .c-pointer {
   cursor: pointer;
 }
@@ -10,19 +7,88 @@
 }
 a {
   text-decoration: none !important;
-  color: #000 !important;
+}
+.f-color{
+  color: var(--app-primary);
 }
 .header-background {
-  background-color: #ffffff;
+  background-color: var(--app-white);
+}
+.section-container {
+  background: linear-gradient(180deg,#e3e5f5 -5.54%,#fff);
+}
+.section-heading{
+  margin: 0;
+}
+button:focus {
+  outline: none;
 }
 
+.app-card {
+  border-radius: 30px;
+  background-color: var(--app-white);
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.app-card__img {
+  object-fit: contain;
+  margin: 0 auto;
+}
+.app-card__desc{
+  color: var(--app-desc);
+}
+.app-card__btn {
+  border: none;
+  outline: none;
+  padding: 0.5em 0.8em;
+  border-radius: 8px;
+  color: var(--app-white);
+}
+.app-card__btn-service {
+  background: var(--service-btn)
+}
+.app-card__btn-sales {
+  background: var(--sales-btn)
+}
 @media (max-width: 576px) {
   .logo {
     width: 40px;
     height: 40px;
   }
+  .section-heading{
+    padding: 40px 0;
+  }
+  .app-card {
+    width: 285px;
+    height: 385px;
+    margin: 20px;
+    padding: 30px 20px;
+    
+  }
+  .app-card__img {
+    width: 120px;
+    height: 120px;
+  }
+  .app-card__btn{
+    border: none;
+    outline: none;
+    padding: 0.5em 0.8em;
+    border-radius: 8px;
+  }
+
 }
 @media (min-width: 576px) {
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  .section-heading{
+    padding: 80px 0;
+  }
 }
 @media (min-width: 768px) {
 }
