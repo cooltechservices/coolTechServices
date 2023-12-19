@@ -53,6 +53,12 @@
   max-height: 40px;
   object-fit: contain;
 }
+.choose-us-item__heading{
+  color: var(--app-white);
+}
+.choose-us-item__desc{
+  color: var(--app-light-desc);
+}
 
 
 /* small screen */

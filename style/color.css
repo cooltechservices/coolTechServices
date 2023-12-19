@@ -6,4 +6,5 @@
     --sales-btn: linear-gradient(90deg, rgb(212, 52, 47) 0%, 22.0398%, rgb(230, 93, 28) 44.0796%, 72.0398%, rgb(248, 133, 9) 100%);
     --app-transparent: transparent;
     --app-desc: #666666;
+    --app-light-desc: #dddddd
 }

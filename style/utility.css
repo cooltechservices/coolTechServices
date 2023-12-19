@@ -55,6 +55,13 @@ button:focus {
 .app-card__btn-sales {
   background: var(--sales-btn)
 }
+.blue-container {
+  background-color: var(--app-primary);
+  padding-bottom: 50px;
+}
+.section-heading.white-text {
+  color: var(--app-white);
+}
 @media (max-width: 576px) {
   .logo {
     width: 40px;
