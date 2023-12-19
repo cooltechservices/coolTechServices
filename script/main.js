@@ -3,7 +3,9 @@ const menuList = document.getElementById("menuList");
 const header = document.getElementById("header");
 const servicesCardList = document.getElementById("service-card-list");
 const salesCardList = document.getElementById("sales-card-list");
+const whyChooseUsList = document.getElementById("why-choose-us-list");
 import { salesAndServiceData } from "../assets/data/salesAndServices.js";
+import { whyChooseUs } from "../assets/data/whyChooseUs.js";
 
 //methods
 const menuToggle = () => {
@@ -69,6 +71,25 @@ salesAndServiceData.sales.forEach(data => {
   `
   salesCardList.appendChild(salesCard);
 });
+
+whyChooseUs.lists.forEach(data => {
+  const whyChooseUsEle = document.createElement('div');
+  whyChooseUsEle.innerHTML = 
+  `
+    <div class="choose-us-item">
+      <div class="choose-us-item__icon">
+        <img src="${data.icon}" alt="${data.title}" width="100%" height="100%">
+      </div>
+      <div class="choose-us-item__content">
+        <h5 class="choose-us-item__heading">${data.title}</h5>
+        <article class="choose-us-item__desc">
+          ${data.content}
+        </article>
+      </div>
+    </div>
+  `;
+  whyChooseUsList.appendChild(whyChooseUsEle);
+})
 // ****user actions**** //
 // on scroll set header color background
 window.addEventListener("scroll", handleScroll);

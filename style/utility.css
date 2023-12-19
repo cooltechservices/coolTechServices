@@ -16,6 +16,7 @@ a {
 }
 .section-container {
   background: linear-gradient(180deg,#e3e5f5 -5.54%,#fff);
+  padding-bottom: 50px;
 }
 .section-heading{
   margin: 0;
@@ -88,6 +89,23 @@ button:focus {
   }
   .section-heading{
     padding: 80px 0;
+  }
+  .app-card {
+    width: 285px;
+    height: 385px;
+    margin: 20px;
+    padding: 30px 20px;
+    
+  }
+  .app-card__img {
+    width: 120px;
+    height: 120px;
+  }
+  .app-card__btn{
+    border: none;
+    outline: none;
+    padding: 0.5em 0.8em;
+    border-radius: 8px;
   }
 }
 @media (min-width: 768px) {
