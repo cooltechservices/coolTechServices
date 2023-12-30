@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   color: var(--app-primary);
+  scroll-behavior: smooth;
 }
 .header {
   position: fixed;
@@ -73,16 +74,35 @@
 .shop-address > a > .contact-icon {
   margin-bottom: 5px;
 }
-.social-media{
+.social-media {
   display: flex;
   justify-content: center;
 }
-.social-link{
+.social-link {
   width: 40px;
   height: 40px;
   margin: 0 5px;
 }
-
+.social-link-float {
+  position: fixed;
+  bottom: 3%;
+  width: 40px;
+  height: 40px;
+}
+.whatsapp {
+  left: 3%;
+}
+.phone {
+  right: 3%;
+}
+/* PAGE - SERVICES */
+.services-sales__title-desc > p,
+.services-sales__detail > p {
+  text-align: justify;
+}
+.services-sales__short {
+  margin-bottom: 20px;
+}
 /* small screen */
 @media (max-width: 576px) {
   .menu-toggle {
@@ -114,6 +134,11 @@
     text-align: center;
     margin: 30px 0;
   }
+  .services-sales__img {
+    width: 285px;
+    height: auto;
+    margin: 0 auto;
+  }
 }
 /* Large screen */
 @media (min-width: 576px) {
@@ -131,6 +156,18 @@
   }
   .get-in-touch {
     align-items: center;
+  }
+  .services-sales__img {
+    min-width: 360px;
+    height: auto;
+  }
+  .services-sales__short {
+    display: flex;
+  }
+  .services-sales__title-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 

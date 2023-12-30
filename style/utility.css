@@ -8,17 +8,17 @@
 a {
   text-decoration: none !important;
 }
-.f-color{
+.f-color {
   color: var(--app-primary);
 }
 .header-background {
   background-color: var(--app-white);
 }
 .section-container {
-  background: linear-gradient(180deg,#e3e5f5 -5.54%,#fff);
+  background: linear-gradient(180deg, #e3e5f5 -5.54%, #fff);
   padding-bottom: 50px;
 }
-.section-heading{
+.section-heading {
   margin: 0;
 }
 button:focus {
@@ -39,7 +39,7 @@ button:focus {
   object-fit: contain;
   margin: 0 auto;
 }
-.app-card__desc{
+.app-card__desc {
   color: var(--app-desc);
 }
 .app-card__btn {
@@ -49,11 +49,14 @@ button:focus {
   border-radius: 8px;
   color: var(--app-white);
 }
+.app-card__btn:hover {
+  color: var(--app-white);
+}
 .app-card__btn-service {
-  background: var(--service-btn)
+  background: var(--service-btn);
 }
 .app-card__btn-sales {
-  background: var(--sales-btn)
+  background: var(--sales-btn);
 }
 .blue-container {
   background-color: var(--app-primary);
@@ -67,48 +70,51 @@ button:focus {
     width: auto;
     height: 60px;
   }
-  .section-heading{
+  .page-top-offset {
+    padding-top: 76px;
+  }
+  .section-heading {
     padding: 40px 0;
   }
   .app-card {
     width: 285px;
-    height: 385px;
+    height: 400px;
     margin: 20px;
     padding: 30px 20px;
-    
   }
   .app-card__img {
     width: 120px;
     height: 120px;
   }
-  .app-card__btn{
+  .app-card__btn {
     border: none;
     outline: none;
     padding: 0.5em 0.8em;
     border-radius: 8px;
   }
-
 }
 @media (min-width: 576px) {
   .logo {
     width: auto;
     height: 70px;
   }
-  .section-heading{
+  .page-top-offset {
+    padding-top: 86px;
+  }
+  .section-heading {
     padding: 80px 0;
   }
   .app-card {
     width: 285px;
-    height: 385px;
+    height: 400px;
     margin: 20px;
     padding: 30px 20px;
-    
   }
   .app-card__img {
     width: 120px;
     height: 120px;
   }
-  .app-card__btn{
+  .app-card__btn {
     border: none;
     outline: none;
     padding: 0.5em 0.8em;
