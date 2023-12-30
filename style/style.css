@@ -64,6 +64,7 @@
 .get-in-touch {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 30px;
 }
 
 .shop-address > p {
@@ -71,6 +72,15 @@
 }
 .shop-address > a > .contact-icon {
   margin-bottom: 5px;
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+}
+.social-link{
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
 }
 
 /* small screen */

@@ -7,6 +7,7 @@ const whyChooseUsList = document.getElementById("why-choose-us-list");
 import { salesAndServiceData } from "../assets/data/salesAndServices.js";
 import { whyChooseUs } from "../assets/data/whyChooseUs.js";
 
+
 //methods
 const menuToggle = () => {
   if (menuList.classList.contains("active")) {
