@@ -11,6 +11,9 @@ a {
 .f-color {
   color: var(--app-primary);
 }
+.f-color:hover {
+  color: var(--app-secondary);
+}
 .header-background {
   background-color: var(--app-white);
 }
