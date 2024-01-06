@@ -144,6 +144,17 @@
 .services-sales__short {
   margin-bottom: 20px;
 }
+/* PAGE - ABOUT US */
+.owner-image {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  margin: 20px auto 50px auto;
+}
+.owner-image > img {
+  object-fit: cover;
+}
 /* small screen */
 @media (max-width: 576px) {
   .menu-toggle {
@@ -187,12 +198,8 @@
     text-align: center;
   }
   .owner-image {
-    background: red;
-    border-radius: 50%;
-    overflow: hidden;
     width: 250px;
     height: 250px;
-    margin: 20px auto 50px auto;
   }
 }
 /* Large screen */
@@ -232,6 +239,10 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
+  }
+  .owner-image {
+    width: 350px;
+    height: 350px;
   }
 }
 

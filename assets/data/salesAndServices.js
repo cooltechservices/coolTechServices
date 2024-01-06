@@ -29,7 +29,7 @@ export const salesAndServiceData = {
         "Routine fridge services preserve food freshness and extend the overall lifespan, ensuring reliable storage for perishables.",
       orgImg: "./assets/images/services/refrigerator.png",
       serviceLonDesc:
-        "Text: Consistent fridge services play a pivotal role in maintaining the freshness of your stored food items. During routine checks, technicians meticulously inspect and address potential issues, optimizing the refrigerator's performance. This comprehensive approach not only prevents unexpected breakdowns but also extends the overall lifespan of your fridge. By investing in regular maintenance, you're not just ensuring a reliable storage solution for perishables but also enhancing the efficiency of your refrigerator.",
+        "Consistent fridge services play a pivotal role in maintaining the freshness of your stored food items. During routine checks, technicians meticulously inspect and address potential issues, optimizing the refrigerator's performance. This comprehensive approach not only prevents unexpected breakdowns but also extends the overall lifespan of your fridge. By investing in regular maintenance, you're not just ensuring a reliable storage solution for perishables but also enhancing the efficiency of your refrigerator.",
       navigatorId: "refrigerator",
       action: "./services.html#refrigerator",
     },
@@ -51,7 +51,7 @@ export const salesAndServiceData = {
         "Timely inverter battery services guarantee uninterrupted power and extend the battery's lifespan for continuous power to essential appliances.",
       orgImg: "./assets/images/services/inverter.png",
       serviceLonDesc:
-        "Text: Scheduled inverter battery services are a critical aspect of ensuring uninterrupted power supply during outages. Technicians conduct routine checks, promptly address potential issues, and optimize the battery's performance. This comprehensive approach not only guarantees uninterrupted power for your essential appliances but also contributes to the extended lifespan of the battery. Regular services enhance the reliability and longevity of your home appliances, providing continuous power and peace of mind during power outages.",
+        "Scheduled inverter battery services are a critical aspect of ensuring uninterrupted power supply during outages. Technicians conduct routine checks, promptly address potential issues, and optimize the battery's performance. This comprehensive approach not only guarantees uninterrupted power for your essential appliances but also contributes to the extended lifespan of the battery. Regular services enhance the reliability and longevity of your home appliances, providing continuous power and peace of mind during power outages.",
       navigatorId: "inverter-battery",
       action: "./services.html#inverter-battery",
     },
