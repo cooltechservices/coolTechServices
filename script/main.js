@@ -226,7 +226,7 @@ footer.innerHTML = `
     </address>
     <div class="social-media">
       <a
-        href="https://www.instagram.com/cooltechservices2023?igsh=MXRxa3U3cHJ6ZzNzdA=="
+        href="https://www.instagram.com/cooltechservices2023"
         class="social-link"
         target="_blank"
         ><img
@@ -236,7 +236,7 @@ footer.innerHTML = `
           height="100%"
       /></a>
       <a
-        href="https://www.facebook.com/cooltechservices.2023?mibextid=hIlR13"
+        href="https://www.facebook.com/cooltechservices.2023"
         class="social-link"
         target="_blank"
         ><img
@@ -246,7 +246,7 @@ footer.innerHTML = `
           height="100%"
       /></a>
       <a
-        href="https://www.youtube.com/channel/UCPRMCnvrWkAwk5y-XCL9pDQ "
+        href="https://www.youtube.com/channel/UCPRMCnvrWkAwk5y-XCL9pDQ"
         class="social-link"
         target="_blank"
         ><img
