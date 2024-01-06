@@ -44,7 +44,13 @@
 .hero {
   position: relative;
   height: calc(100vh);
-  background-color: rgba(28, 35, 93, 0.6);
+  /* background-color: rgba(28, 35, 93, 0.6); */
+  /* temp */
+  background: url(/assets/hero/img-2.jpg) rgba(28, 35, 93, 0.6);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+  /* temp */
 }
 .hero-container {
   position: relative;

@@ -37,7 +37,7 @@ export const salesAndServiceData = {
       service: "Water Purifier",
       image: "./assets/images/services/water-purifier.png",
       serviceDesc:
-        "One-liner: Regular RO system maintenance ensures clean and pure drinking water, safeguarding your health and the effectiveness of the purification system.",
+        "Regular RO system maintenance ensures clean and pure drinking water, safeguarding your health and the effectiveness of the purification system.",
       orgImg: "./assets/images/services/water-purifier.png",
       serviceLonDesc:
         "The importance of regular RO system maintenance cannot be overstated. Skilled technicians conduct in-depth checks, replace filters, and address any potential issues to ensure the ongoing purity of your drinking water. This proactive approach safeguards both your health and the effectiveness of the water purification system. Investing in consistent maintenance is an investment in the reliability of your drinking water source, providing clean and pure water for you and your family.",
