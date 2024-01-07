@@ -194,7 +194,7 @@ footer.innerHTML = `
    </div>
    <div>
     <address class="shop-address">
-      <h5>Cool Tech Service</h5>
+      <h5>Cool Tech Services</h5>
       <p>No:45/318,</p>
       <p>Varadhappa nagar,</p>
       <p>Periya thottam, Little kanchipuram</p>
