@@ -216,7 +216,7 @@ footer.innerHTML = `
       <div>
         <a
           class="d-inline-flex"
-          href="mailtocooltechservices31@gmail.com"
+          href="mailto:cooltechservices31@gmail.com"
           ><span
             class="material-symbols-outlined contact-icon c-pointer mr-2"
             >email</span
